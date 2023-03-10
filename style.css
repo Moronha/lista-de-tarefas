@@ -1,0 +1,75 @@
+/* Definindo o estilo para o body */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  /* Definindo o estilo para o container principal */
+  
+  .custom-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Definindo o estilo para o cabeçalho da página */
+  
+  .card-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
+  }
+  
+  /* Definindo o estilo para a tabela */
+  
+  .table {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  /* Definindo o estilo para o input field e botão */
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  #tarefa {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #btn-add {
+    border-radius: 5px;
+  }
+  
+  /* Definindo o estilo para as células da tabela */
+  
+  .table td {
+    vertical-align: middle;
+    padding: 10px;
+  }
+  
+  /* Definindo o estilo para os botões de ação na tabela */
+  
+  .btn-acao {
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+
+
+.completed {
+    text-decoration: line-through;
+    color: blue;
+}
+
